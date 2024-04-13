@@ -29,7 +29,7 @@ printed: When a user enters print it should print the following,
 info ==> [600, 630, 620] ==> avg:  616.67
 ril ==> [1430, 1490, 1567] ==> avg:  1495.67
 mtl ==> [234, 180, 160] ==> avg:  191.33
-add: When user enters 'add', it asks for stock ticker and price. If stock already exist in your list (like info, ril etc) then it will append the price to the list. Otherwise it will create new entry in your dictionary. For example entering 'tata' and 560 will add tata ==> [560] to the dictionary of stocks.
+add: When a user enters 'add', it asks for a stock ticker and price. If stock already exists in your list (like info, ril, etc) then it will append the price to the list. Otherwise, it will create a new entry in your dictionary. For example, entering 'tata' and 560 will add tata ==> [560] to the dictionary of stocks.
 Solution
 
-Write circle_calc() function that takes radius of a circle as an input from user and then it calculates and returns area, circumference and diameter. You should get these values in your main program by calling circle_calc function and then print them
+Write the circle_calc() function that takes the radius of a circle as input from the user and then it calculates and returns the area, circumference and diameter. You should get these values in your main program by calling the circle_calc function and then printing them
